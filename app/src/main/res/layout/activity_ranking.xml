@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RankingActivity">
+
+    <LinearLayout
+        android:id="@+id/add_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite um nome" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Usuário" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_user_layout"
+        android:layout_marginTop="16dp"
+        android:text="Jogar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_ranking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_play"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

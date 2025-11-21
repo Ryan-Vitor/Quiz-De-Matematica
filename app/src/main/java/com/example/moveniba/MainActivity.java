@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ansD.setOnClickListener(this);
             submitBtn.setOnClickListener(this);
 
-            totalQuestionsTextView.setText("Questões Totais -> "+totalQuestions);
+            totalQuestionsTextView.setText("Questões Totais: "+totalQuestions);
             loadnewquestion();
             return insets;
         });

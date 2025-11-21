@@ -11,7 +11,8 @@ public class QuestionAnswer {
             "Questão 7:\nQual o resultado de 12 * 12?",
             "Questão 8:\nQuanto é 99 + 1?",
             "Questão 9:\nQuanto é 250 / 10?",
-            "Questão 10:\nQuanto é 15 * 3?"
+            "Qu" +
+                    "estão 10:\nQuanto é 15 * 3?"
     };
 
     public static String[][] choices = {

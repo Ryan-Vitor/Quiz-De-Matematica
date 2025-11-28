@@ -8,11 +8,10 @@ public class QuestionAnswer {
             "Questão 4:\nQuanto é 100 / 5?",
             "Questão 5:\nQuanto é 7 * 8?",
             "Questão 6:\nQuanto é 81 - 29?",
-            "Questão 7:\nQual o resultado de 12 * 12?",
-            "Questão 8:\nQuanto é 99 + 1?",
+            "Questão 7:\nQual é o resultado de 12 * 12?",
+            "Questão 8:\nQuanto é 101 + 11?",
             "Questão 9:\nQuanto é 250 / 10?",
-            "Qu" +
-                    "estão 10:\nQuanto é 15 * 3?"
+            "Questão 10:\nQuanto é 15 * 3?"
     };
 
     public static String[][] choices = {
@@ -23,7 +22,7 @@ public class QuestionAnswer {
             {"48", "56", "64", "72"},
             {"62", "58", "52", "48"},
             {"124", "134", "144", "154"},
-            {"98", "100", "101", "110"},
+            {"112", "111", "121", "122"},
             {"2.5", "50", "25", "2500"},
             {"30", "35", "45", "55"}
     };
@@ -36,7 +35,7 @@ public class QuestionAnswer {
             "56",
             "52",
             "144",
-            "100",
+            "112",
             "25",
             "45"
     };

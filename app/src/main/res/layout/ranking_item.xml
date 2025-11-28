@@ -28,13 +28,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/button_edit" 
+        android:layout_toStartOf="@id/button_edit" 
         android:layout_centerVertical="true"
         android:layout_marginEnd="16dp"
         android:ellipsize="end"
         android:maxLines="1"
         android:text="Nome do Jogador"
         android:textColor="@android:color/holo_purple"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
 
 </RelativeLayout>

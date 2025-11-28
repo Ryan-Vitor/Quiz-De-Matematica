@@ -14,7 +14,11 @@
         android:text="10"
         android:textColor="@android:color/holo_purple"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
 
     <TextView
         android:id="@+id/text_view_rank_and_name"
@@ -26,6 +30,10 @@
         android:layout_marginEnd="16dp"
         android:text="1º Lugar : Jogador 1"
         android:textColor="@android:color/holo_purple"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
 
 </RelativeLayout>

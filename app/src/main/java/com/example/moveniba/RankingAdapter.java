@@ -43,7 +43,6 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.RankingV
     public void onBindViewHolder(@NonNull RankingViewHolder holder, int position) {
         Ranking ranking = rankingList.get(position);
         holder.textViewName.setText(ranking.getName());
-        holder.textViewScore.setText("Score: " + ranking.getScore());
     }
 
     @Override
@@ -53,14 +52,12 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.RankingV
 
     class RankingViewHolder extends RecyclerView.ViewHolder {
         TextView textViewName;
-        TextView textViewScore;
         Button buttonEdit;
         Button buttonDelete;
 
         public RankingViewHolder(@NonNull View itemView) {
             super(itemView);
             textViewName = itemView.findViewById(R.id.text_view_name);
-            textViewScore = itemView.findViewById(R.id.text_view_score);
             buttonEdit = itemView.findViewById(R.id.button_edit);
             buttonDelete = itemView.findViewById(R.id.button_delete);
 

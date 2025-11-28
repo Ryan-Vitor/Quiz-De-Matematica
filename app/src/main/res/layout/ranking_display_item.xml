@@ -2,38 +2,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp">
 
-    <Button
-        android:id="@+id/button_delete"
-        style="?android:attr/buttonStyleSmall"
+    <TextView
+        android:id="@+id/text_view_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:text="Excluir" />
-
-    <Button
-        android:id="@+id/button_edit"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toStartOf="@id/button_delete"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="8dp"
-        android:text="Editar" />
+        android:text="10"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/text_view_name"
+        android:id="@+id/text_view_rank_and_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/button_edit" 
+        android:layout_toStartOf="@+id/text_view_score"
         android:layout_centerVertical="true"
         android:layout_marginEnd="16dp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        android:text="Nome do Jogador"
+        android:text="1º Lugar : Jogador 1"
         android:textColor="@android:color/holo_purple"
         android:textSize="18sp" />
 

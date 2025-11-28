@@ -11,16 +11,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Moveniba">
+
+        <!-- Esta é a nova tela de início -->
         <activity
-            android:name=".RankingActivity"
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Tela do Quiz -->
         <activity android:name=".MainActivity" />
+
+        <!-- Tela de Gerenciamento de Usuários -->
+        <activity
+            android:name=".UserManagementActivity"
+            android:label="Gerenciar Usuários"
+            android:parentActivityName=".StartActivity" />
+
+        <!-- Tela de Exibição do Ranking -->
+        <activity
+            android:name=".RankingDisplayActivity"
+            android:label="Ranking de Pontuações"
+            android:parentActivityName=".StartActivity" />
+
+        <!-- Atividade de Ranking antiga (não mais usada como principal) -->
+        <activity android:name=".RankingActivity" />
+
     </application>
 
 </manifest>
